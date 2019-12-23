@@ -1,4 +1,4 @@
-Using Python to Search NASA'a Astrophysics Archives
+Using Python to Search NASA's Astrophysics Archives
 ===================================================
 *Workshop at the 235th Meeting of the AAS in Honolulu*
 
