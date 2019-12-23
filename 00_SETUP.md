@@ -53,7 +53,7 @@ Download the workshop folder using
 
     % git clone https://github.com/NASA-NAVO/aas_workshop_2020_winter.git
 
-## 3. Create a conda environment for the workshop
+## 5. Create a conda environment for the workshop
 
 *For this workshop, the python version and all needed packages are listed in the
 [environment.yml](https://github.com/NASA-NAVO/aas_workshop_2020_winter/blob/master/environment.yml) file.*
@@ -70,7 +70,7 @@ environment, type:
     % conda env create -n navo-workshop --file environment.yml
     % conda activate navo-workshop
 
-## 4. Check Installation
+## 6. Check Installation
 
 The name of the new conda environment created above should be displayed next
 to the terminal prompt:
@@ -82,7 +82,7 @@ required dependencies:
 
     (navo-workshop) % python check_env.py
 
-## 5. Starting Jupyterlab
+## 7. Starting Jupyterlab
 From the directory containing the notebooks:
 
     (navo-workshop) % jupyter lab
