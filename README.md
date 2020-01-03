@@ -9,7 +9,7 @@ Using Python to Search NASA's Astrophysics Archives
 ## PRE-WORKSHOP SETUP
 
 Please be sure your laptop is properly configured before the workshop by following the
-[installation and setup instructions](00-SETUP.md).
+[installation and setup instructions](00_SETUP.md).
 
 This could take as long as *one hour* depending on your current configuration and internet speeds.
 DO NOT WAIT UNTIL THE DAY OF THE WORKSHOP.
