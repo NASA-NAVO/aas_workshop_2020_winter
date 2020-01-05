@@ -1,6 +1,27 @@
 # Configuring the Workshop Environment
 These directions walk through installing miniconda, a lightweight distribution of the python package installer conda, downloading the NAVO workshop material, then creating and testing the custom environment for the  workshop. 
 
+This file:<br>https://github.com/NASA-NAVO/aas_workshop_2020_winter/blob/master/00_SETUP.md
+
+## 0. Update Previously-Created Environments
+If you followed these instructions prior to today, update the environment with the instruction in this step.  First time installers proceed to **Step 1**.
+
+Within a `bash` shell (Mac and Linux), or Anaconda Prompt (Windows):
+#### Get the Latest from Github
+
+    % cd [wherever'git clone' was done]/aas_workshop_2020_winter
+    % git pull
+
+    # If that failed due to local changes, stash those changes and try again:
+    % git stash
+    % git pull
+#### Install an updated PyVO package
+
+    % conda activate navo-workshop  # Always remember to activate the environment!
+    % pip install git+git://github.com/tomdonaldson/pyvo.git@increase_tap_timeout --upgrade
+#### Skip the Installation Steps
+The environment should be ready.  Skip to **Step 6** to check the environment and start Jupyter Lab.
+
 ## 1. Install Miniconda (if needed)
 
 *Miniconda is a free minimal installer for conda. It is a small, bootstrap
