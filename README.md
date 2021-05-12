@@ -1,5 +1,8 @@
 Using Python to Search NASA's Astrophysics Archives
 ===================================================
+
+**These workshop materials are no longer maintained. Our group's workshop materials are now available in [a separate repository](https://github.com/NASA-NAVO/navo-workshop) and we no longer create a new repository for each workshop.**
+
 *Workshop at the 235th Meeting of the AAS in Honolulu*
 
 * **DATE:** Sunday, 5 January 2020
